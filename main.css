@@ -1,0 +1,140 @@
+/*Colors*/
+:root {
+--Soft-orange: hsl(35, 77%, 62%);
+--Soft-red: hsl(5, 85%, 63%);
+--Off-white: hsl(36, 100%, 99%);
+--Grayish-blue: hsl(233, 8%, 79%);
+--Dark-grayish-blue: hsl(236, 13%, 42%);
+--Very-dark-blue: hsl(240, 100%, 5%);
+}
+
+*{
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    background-color: #fff;
+}
+.cabecalho{
+    background-color: #fff;
+}
+
+.cabecalho .nav-link{
+    color: black;
+}
+
+.cabecalho .nav-link:hover{
+    color: var(--Soft-red);
+}
+
+.main-article img{
+    max-height: 287px;
+}
+
+.main-article p{
+    color: var(--Dark-grayish-blue);
+}
+
+.main-article h2{
+    font-size: 60px;
+}
+
+.rm-btn{
+    background-color: var(--Very-dark-blue);
+    border: none;
+    color: var(--Off-white);
+    letter-spacing: 3px;
+    width: 45%;
+}
+
+.rm-btn:hover{
+    background-color: var(--Soft-red);
+}
+
+
+.aside-news{
+    background-color: var(--Very-dark-blue);
+}
+
+.aside-news h2{
+    color: var(--Soft-orange);
+}
+
+.aside-news h4{
+    color: var(--Off-white);
+}
+
+.aside-news h4:hover{
+    color: var(--Soft-orange);
+    cursor: pointer;
+}
+
+.aside-news p{
+    color: var(--Dark-grayish-blue);
+}
+
+
+.selected-side p{
+    border-bottom: 1px solid var(--Dark-grayish-blue);
+    padding-bottom: 10px;
+}
+
+.rm-btn{
+    background-color: var(--Very-dark-blue);
+    border: none;
+    color: var(--Off-white);
+    letter-spacing: 3px;
+}
+
+.top3-notice img{
+    max-height: 200px;
+}
+
+.top3-notice h4{
+    color: var(--Grayish-blue);
+}
+
+.top3-notice h5{
+    color: black;
+    cursor: pointer;
+}
+
+.top3-notice h5:hover{
+    color: var(--Soft-red);
+}
+
+.top3-notice p{
+    color: var(--Dark-grayish-blue);
+}
+
+@media (max-width: 1023px) {
+    .top3-notice{
+        display: flex;
+        
+    }
+}
+
+
+
+@media (max-width: 767px){
+
+    .main-article h2{
+        font-size: 50px;
+    }
+
+    .rm-btn{
+        margin-bottom: 10px;
+        width: 70%;
+    }
+
+    .rm-btn:focus{
+        background-color: var(--Soft-red);
+    }
+
+
+
+
+    .sm-ajust{
+        margin-bottom: 30px;
+    }
+}
